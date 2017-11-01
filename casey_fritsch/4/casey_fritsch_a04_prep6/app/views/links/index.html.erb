@@ -1,9 +1,0 @@
-<h1>Link Index</h1>
-
-<ul>
-  <% @links.each do |link| %>
-    <lin><%= link_to link.title, link_url(link) %></li>
-  <% end %>
-</ul>
-
-<%= link_to "New Link", new_link_url %>
